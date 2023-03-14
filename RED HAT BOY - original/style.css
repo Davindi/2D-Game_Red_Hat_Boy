@@ -1,0 +1,123 @@
+.body{
+    margin: 0px;
+
+}
+
+.background{
+    width: 100VW;
+    height: 100vh;
+    background-image: url("resources/background.png");
+    background-repeat: repeat-x;
+    background-size: cover;
+    position: absolute;
+    overflow-x: hidden;
+}
+
+.boy{
+    
+    height: 200px;
+    margin-top: 425px;
+    position: absolute;
+}
+
+.score{
+    font-size: 50px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.box{
+    width: 60px;
+    height: 90px;
+    background-image: url("resources/flame.gif");
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 535px;
+    margin-left: 700px;
+}
+.gameOver{
+    width: 100VW;
+    height: 100vh;
+    background-image: url("resources/start.png");
+    background-size: contain;
+    /* background-color: white; */
+    color: blue;
+    font-size: 100px;
+    font-family: 'Courier New';
+    font-weight: bold;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+}
+.reload{
+    width: 500px;
+    height: 100px;
+    background-image: url("resources/start.png");
+    background-size: contain;
+    /* background-color: white; */
+    color: rgb(69, 12, 12);
+    font-size: 50px;
+    font-family: 'Courier New';
+    font-weight: bold;
+    border: solid;
+    border-color: black;
+    border-width: 10px;
+    border-radius: 8px;
+    justify-content: center;
+    cursor: pointer;
+
+}
+.start{
+    width: 100VW;
+    height: 100vh;
+    background-image: url("resources/start.png");
+    background-size: contain;
+    /* background-color: white; */
+    color: blue;
+    font-size: 30px;
+    font-family: 'Courier New';
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    
+}
+.name{
+    
+    color: red;
+    font-size: 120px;
+    font-weight: bold;
+    background-color: black;
+    border-width: 20px;
+    border-radius: 10px;
+    
+}
+.comment{
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+.win{
+    width: 100VW;
+    height: 100vh;
+    background-image: url("resources/start.png");
+    background-size: contain;
+    /* background-color: white; */
+    font-size: 100px;
+    font-family: 'Courier New';
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    visibility: hidden;
+}
